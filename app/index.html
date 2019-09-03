@@ -27,24 +27,25 @@
       <div class="navbar-container">
         <div class="navbar-header">
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+          <a class="navbar-brand-mobile" href="#/"><img src="images/Logo_Greyscale.png" alt="Logo"></a>
+
+          <button type="button" id="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-
-          <a class="navbar-brand" href="#/"><img src="images/Logo_Greyscale.png" alt="Logo"></a>
         </div>
 
         <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
           <ul class="nav navbar-nav">
+            <li><a id="navbar-brand" href="#/"><img src="images/Logo_Greyscale.png" alt="Logo"></a></li>
             <li><a id="homeLink" href="/#">Apps</a></li>
             <li><a id="redBrickLink" ui-sref="brick({color: 'red'})">Web</a></li>
             <li><a id="blueBrickLink" ui-sref="brick({color: 'blue'})">Social</a></li>
             <li><a id="greenBrickLink" ui-sref="brick({color: 'green'})">Design</a></li>
-            <li><a id="cartLink" ui-sref="cart"><img src="images/bag.png" alt="bag"></a></li>            
+            <li><a id="cartLink" ui-sref="cart"><img src="images/bag-white.svg" alt="bag"></a></li>            
           </ul>
         </div>
       </div>
@@ -57,7 +58,7 @@
 
   <div class="footer">
     <div class="container">
-      <p><span class="glyphicon glyphicon-heart"></span> from Udacity</p>
+     
     </div>
   </div>
 
