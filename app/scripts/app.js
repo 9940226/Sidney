@@ -39,4 +39,7 @@ angular
       templateUrl: 'views/cart.html',
       controller: 'CartCtrl as cart'
     })
+
+    
+
   }]);
