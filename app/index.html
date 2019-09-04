@@ -40,14 +40,15 @@
         <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
           <ul onClick="(function(){if ( !$( '#button' ).hasClass( 'collapsed' )){$( '#button' ).click();}})()" class="nav navbar-nav">
-            <li><a id="navbar-brand" href="#/"><img src="images/Logo_Greyscale.png" alt="Logo"></a></li>
-            <li><a id="homeLink" ng-click="console.log('clicked')" href="/#">Apps</a></li>
-            <li><a id="redBrickLink" ui-sref="brick({color: 'red'})">Web</a></li>
-            <li><a id="blueBrickLink" ui-sref="brick({color: 'blue'})">Social</a></li>
-            <li><a id="greenBrickLink" ui-sref="brick({color: 'green'})">Design</a></li>
-            <li><a id="cartLink" ui-sref="cart"><img src="images/bag-white.svg" alt="bag"></a></li>            
+            <li><a onClick="(function(){document.title='Sidney'})()" id="navbar-brand" href="#/"><img src="images/Logo_Greyscale.png" alt="Logo"></a></li>
+            <li><a onClick="(function(){document.title='Segmentos | Sidney'})()" id="homeLink" ng-click="console.log('clicked')" href="/#">Segmentos</a></li>
+            <li><a onClick="(function(){document.title='Genéricos | Sidney'})()" id="redBrickLink" ui-sref="brick({color: 'red'})">Genericos</a></li>
+            <li><a onClick="(function(){document.title='Soluções | Sidney'})()" id="blueBrickLink" ui-sref="brick({color: 'blue'})">Soluções</a></li>
+            <li><a onClick="(function(){document.title='Design | Sidney'})()" id="greenBrickLink" ui-sref="brick({color: 'green'})">Design</a></li>
+            <li><a onClick="(function(){document.title='& | Sidney'})()" id="cartLink" ui-sref="cart"><img src="images/bag-white.svg" alt="bag"></a></li>            
           </ul>
         </div>
+        
       </div>
     </div>
   </div>
